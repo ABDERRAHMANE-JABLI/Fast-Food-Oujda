@@ -1,12 +1,15 @@
-import './App.css';
+import './style.css';
+import './responsive.css';
 
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {Home} from './pages/Routes'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        My app
-      </header>
-    </div>
+   <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+   </Router>
   );
 }
 
