@@ -1,9 +1,12 @@
 import React from 'react'
-import {Header} from '../Components/includes'
+import {Header, SpecialOffer} from '../Components/includes'
 
 const Home = () => {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <SpecialOffer/>
+    </>
    )
 }
 export default Home;
