@@ -1,11 +1,13 @@
 import React from 'react'
-import {Header, SpecialOffer} from '../Components/includes'
+import {AboutSection, Header, MenuSection, SpecialOffer} from '../Components/includes'
 
 const Home = () => {
   return (
     <>
       <Header/>
       <SpecialOffer/>
+      <MenuSection/>
+      <AboutSection/>
     </>
    )
 }

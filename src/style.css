@@ -564,6 +564,7 @@ a:focus {
   height: 40px;
   border-radius: 100%;
   background: #f33d1d;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -577,7 +578,7 @@ a:focus {
 
 .food_section .box .options a i {
   font-size: 18px;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .food_section .box:hover .img-box img {
