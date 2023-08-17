@@ -1,5 +1,5 @@
 import React from 'react'
-import {AboutSection, Header, MenuSection, SpecialOffer} from '../Components/includes'
+import {AboutSection, BookSection, FooterSection, Header, MenuSection, SpecialOffer} from '../Components/includes'
 
 const Home = () => {
   return (
@@ -8,6 +8,8 @@ const Home = () => {
       <SpecialOffer/>
       <MenuSection/>
       <AboutSection/>
+      <BookSection/>
+      <FooterSection/>
     </>
    )
 }
